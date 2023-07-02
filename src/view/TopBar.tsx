@@ -11,8 +11,10 @@ export function TopBar({ children }: Props) {
     <div className="top-bar">
       {children}
       <img className="logo" src="./icons/logo.svg" alt="logo" />
+      <script src="http://localhost:8097"></script>
       {/* <img className="logo" src={reactLogo} alt="logo" /> */}
       {/* <img className="logo" src={logo} alt="logo" /> */}
+      <h1>Hello State</h1>
     </div>
   );
 }
